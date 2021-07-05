@@ -49,6 +49,10 @@ body {
     text-align: center;
 }
 
+#date {
+    letter-spacing: 0.1rem;
+}
+
 #date h1 {
     font-size: 1.5rem;
     margin: 0;
