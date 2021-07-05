@@ -12,3 +12,8 @@ Users should be able to:
 * Cycle through different months
 * Select a specific date
 * Select a date range
+
+## Referenced Resources 
+This code extends on concepts displayed in the Code Institute Software Developer Bootcamp. 
+
+The ideas to play with the flex and justify-content display models in CSS stem from concepts displayed in the [W3Schools library](https://www.w3schools.com/css/css3_flexbox_container.asp).
