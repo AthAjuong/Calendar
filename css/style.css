@@ -8,12 +8,21 @@ body {
 
 .container {
     width: 100%;
-    height: 100vh;
-    display: flex;   
+    height: 100vh; 
+    background-color: turquoise;
+    position: relative;
 }
 
-#calendar-box {
+.calendar-box {
     width: 400px;
     height: 425px;
     border: 5px solid black;
+    background-color: white;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
 }
+
