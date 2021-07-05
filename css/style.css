@@ -52,7 +52,6 @@ body {
 */
 #click-prev {
     width: 10%;
-    font-size: 1.6rem;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -60,10 +59,17 @@ body {
 
 #click-next {
     width: 10%;
-    font-size: 1.6rem;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+}
+
+/* Styling button arrows to cycle months*/
+.date-arrows {
+    border: none;
+    background-color: rgba(32, 32, 32, 0);
+    color: #ffffff;
+    font-size: 1.6rem;
 }
 
 #todays-date {
