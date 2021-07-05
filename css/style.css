@@ -70,18 +70,16 @@ body {
     height: 3.125em;
     display: flex;
     align-items: center;
-    text-align: center;
-    
 }
 
 .days {
     width: calc(100% / 7);
-    height: 100%;
+    text-align: center;
 }
 
 #dates-container {
     width: 100%;
-    height: 375px;
+    height: 18.75em;
     display: flex;
     flex-wrap: wrap;
 }
@@ -89,5 +87,5 @@ body {
 .each-date {
     width: calc(100% /7);
     height: 3.125em;
-    
+    text-align: center;
 }
