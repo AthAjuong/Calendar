@@ -87,5 +87,8 @@ body {
 .each-date {
     width: calc(100% /7);
     height: 3.125em;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
