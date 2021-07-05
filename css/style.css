@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
 
+/* by default body has a margin and padding. I set both to 0 at the beginning of any project*/
 body {
     margin: 0;
     padding: 0; 
@@ -13,9 +14,10 @@ body {
     position: relative;
 }
 
+/* center the calendar in the middle of the page */
 .calendar-box {
-    width: 400px;
-    height: 425px;
+    width: 25em;
+    height: 27em;
     border: 1px solid black;
     background-color: white;
     left: 0;
@@ -77,6 +79,7 @@ body {
     text-align: center;
     font-weight: bold;
     letter-spacing: 0.07rem;
+    color: rgba(32, 32, 32, 1);
 }
 
 #dates-container {
@@ -92,4 +95,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center; 
+    color: rgba(32, 32, 32, 1);
+}
+
+.faded-dates {
+    color: rgba(32,32,32,0.4);
 }
