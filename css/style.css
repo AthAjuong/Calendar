@@ -38,11 +38,20 @@ body {
     justify-content: center;
 }
 
-#head-date span {
+#click-prev {
+    width: 10%;
     font-size: 1.6rem;
-    top: 0;
-    bottom: 0;
-    margin: auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#click-next {
+    width: 10%;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 #todays-date {
