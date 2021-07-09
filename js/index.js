@@ -1,13 +1,6 @@
 var theTime = new Date();
-
-function getTheDate() {
-    let theDate = { 
-        'month' : theTime.getMonth(),
-        'day' : theTime.getUTCDay(),
-        'year' : theTime.getUTCFullYear()
-    }
-    return theDate;
-}
-
-theTime.getTheDate();
 console.log(theTime);
+
+function getTodaysDate() {
+    
+}
