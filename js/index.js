@@ -6,6 +6,7 @@ function getTheDate() {
         'day' : theTime.getUTCDay(),
         'year' : theTime.getUTCFullYear()
     }
+    return theDate;
 }
 
 theTime.getTheDate();
