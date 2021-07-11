@@ -1,5 +1,5 @@
 var currentDateAndTime = new Date();
-console.log(theTime);
+console.log(currentDateAndTime);
 
 function getTodaysDate(currentDateAndTime) {
     let today = currentDateAndTime.getDate();
@@ -12,4 +12,4 @@ function getTodaysDate(currentDateAndTime) {
 
 let todaysDate = currentDateAndTime.getTodaysDate();
 
-document.getElementById('todays-date').children[1].innerHTML = todaysDate;
+document.getElementById('todays-date').innerHTML = todaysDate;
