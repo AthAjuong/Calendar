@@ -44,8 +44,8 @@ function setTodaysDate() {
 function setMonthDates() {
     let dates = "";
 
-    for(i=0; i<31;i++) {
-        dates = `<div>${i+1}</div>`;
+    for(i=1; i<32;i++) {
+        dates = `<div>${i}</div>`;
         document.getElementById('dates-container').innerHTML = dates;
     }
     
