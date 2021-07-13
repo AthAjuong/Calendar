@@ -47,7 +47,7 @@ function calculateMonthDates() {
     for(i=0; i<31;i++) {
         dates = "<div>"+(i+1)+"</div>";
     }
-    document.getElementById('dates-container').append(dates);
+    document.getElementById('dates-container').innerHTML(dates);
 }
 
 setTodaysDate();      
