@@ -3,7 +3,7 @@ var currentDateAndTime = new Date();
 let today = currentDateAndTime.getDate();
 let thisMonth = currentDateAndTime.getMonth();
 let thisYear = currentDateAndTime.getFullYear();
-var monthResult;
+var monthResult=0;
 
 if(thisMonth<9) {
     monthResult = "0"+thisMonth;
@@ -12,7 +12,7 @@ else {
     monthResult = thisMonth+1;
 }
 
-var varDate = [today+'/'+monthResult+'/'+thisYear];
+var varDate = `${today}'/'${monthResult}'/'${thisYear}`;
 
 let months = [
     'January',
