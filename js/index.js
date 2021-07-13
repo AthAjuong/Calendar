@@ -46,7 +46,7 @@ function setMonthDates() {
     var datesBoxes = document.getElementById('dates-container');
 
     for(i=1; i<32;i++) {
-        dates += `<div>${i}</div>`;
+        dates += `<div class='each-date'>${i}</div>`;
         datesBoxes.innerHTML = dates;
     }
     
