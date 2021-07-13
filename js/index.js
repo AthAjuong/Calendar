@@ -41,15 +41,15 @@ function setTodaysDate() {
     document.getElementById('todays-date').children[1].innerHTML = varDate;
 }
 
-function calculateMonthDates() {
+function setMonthDates() {
     let dates = "";
 
     for(i=0; i<31;i++) {
-        dates = "<div>"+(i+1)+"</div>";
+        dates = `<div>${i+1}</div>`;
         document.getElementById('dates-container').innerHTML = dates;
     }
     
 }
 
 setTodaysDate();      
-calculateMonthDates();
+setMonthDates();
