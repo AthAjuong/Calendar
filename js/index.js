@@ -45,7 +45,7 @@ function setMonthDates() {
     let dates = "";
 
     for(i=1; i<32;i++) {
-        dates = `<div>${i}</div>`;
+        dates += `<div>${i}</div>`;
         document.getElementById('dates-container').innerHTML = dates;
     }
     
