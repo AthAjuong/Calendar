@@ -12,7 +12,7 @@ else {
     monthResult = thisMonth+1;
 }
 
-var varDate = `${today}'/'${monthResult}'/'${thisYear}`;
+var varDate = `${today}/${monthResult}/${thisYear}`;
 
 let months = [
     'January',
