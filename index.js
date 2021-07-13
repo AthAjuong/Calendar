@@ -6,7 +6,7 @@ let thisYear = currentDateAndTime.getFullYear();
 
 var varDate = [today+'/'+(thisMonth+1)+'/'+thisYear];
 
-let months = [
+let months = {
     "January":      thisMonth[0],
     "February":     thisMonth[1],
     "March":        thisMonth[2],
@@ -19,7 +19,7 @@ let months = [
     "October":      thisMonth[9],
     "November":     thisMonth[10],
     "December":     thisMonth[11],
-];
+};
 
 document.getElementById('todays-date').children[0].innerHTML = months[thisMonth];
 document.getElementById('todays-date').children[1].innerHTML = varDate;
