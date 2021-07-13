@@ -6,7 +6,7 @@ let thisYear = currentDateAndTime.getFullYear();
 var monthResult=0;
 
 if(thisMonth<9) {
-    monthResult = "0"+thisMonth;
+    monthResult = "0"+(thisMonth+1);
 }
 else {
     monthResult = thisMonth+1;
