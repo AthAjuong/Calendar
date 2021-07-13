@@ -41,4 +41,4 @@ function setTodaysDate() {
     document.getElementById('todays-date').children[1].innerHTML = varDate;
 }
 
-currentDateAndTime.setTodaysDate();
+setTodaysDate();      
